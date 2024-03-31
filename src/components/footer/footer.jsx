@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-import logoIcon from "../../images/icons/logo-mini.svg";
+import logoIcon from "../../images/icons/logo.svg";
 
 import styles from "./footer.module.css";
 
@@ -21,7 +21,7 @@ export const Footer = ({ extraClass = "" }) => {
         <img src={logoIcon} alt="Логотип." />
         <p
           className={`text text_type_footer text_color_primary ${styles.text}`}
-        >{`${"\u{00A9}"}${new Date().getFullYear()}, Купи Подари Дай`}</p>
+        >{`${"\u{00A9}"}${new Date().getFullYear()}, Мой вишлист`}</p>
       </div>
     </footer>
   );
